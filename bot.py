@@ -29,8 +29,8 @@ def echo_all(message):
         bot.reply_to(message, "Йоу!")
     elif message.text == "Что ты можешь?":
         bot.reply_to(message, "Пока мало чего( Но в будущем у меня будет БОЛЬШЕ функций!")
-    elif message.text == "Команды":
-        bot.reply_to(message, "Привет, Пока, Йоу, Что ты можешь?, /password, /mem, Ты тупой")
+    elif message.text == "/help":
+        bot.reply_to(message, "Вот все взаимодействия с этим ботом: Привет, Пока, Йоу, Что ты можешь?, /password, /mem, Ты тупой")
     elif message.text == "Ты тупой":
         bot.reply_to(message, "Сам тупой.")
     else:
